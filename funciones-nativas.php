@@ -18,4 +18,7 @@ if(array_key_exists("nombre",$personas[0])){ echo "Sí existe"; }
 // Devuelve un array con todas las claves (keys) de otro array.
 $claves = array_keys($personas[0]); // ["nombre","edad"]
 
+// 4. array_values() -> devuelve todos los valores
+//Devuelve todos los valores de un array en un nuevo array, ignorando las claves.
+$valores = array_values($personas[0]); // ["Luis",25]
 
