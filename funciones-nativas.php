@@ -22,3 +22,9 @@ $claves = array_keys($personas[0]); // ["nombre","edad"]
 //Devuelve todos los valores de un array en un nuevo array, ignorando las claves.
 $valores = array_values($personas[0]); // ["Luis",25]
 
+// 5. array_filter() -> filtra con condición
+// Recorre un array y devuelve solo los elementos que cumplen una condición.
+// por ejemplo para mostrar solo estudiantes aprobados o solo los que tienen edad mayor a 18.
+$mayores = array_filter($edades, fn($e)=>$e>=30); // [30]
+
+
