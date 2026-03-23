@@ -135,3 +135,9 @@ echo strcmp("Luis","Luis"); // 0
 echo strcmp("Luis","Ana");  // >0
 echo strcmp("Ana","Luis");  // <0
 
+// 31. strcasecmp() → compara cadenas ignorando mayúsculas/minúsculas
+echo strcasecmp("Luis","LUIS"); // 0
+echo strcasecmp("Luis","Ana");  // >0
+echo strcasecmp("Ana","Luis");  // <0
+
+
