@@ -57,4 +57,10 @@ $keys = ["a","b"];
 $vals = [1,2];
 $comb = array_combine($keys,$vals); // ["a"=>1,"b"=>2]
 
+// 11. str_split() → convierte string en array
+//Convierte una cadena en un array de caracteres o en fragmentos de tamaño definido.
+// se utliza Cuando necesitas trabajar con cada letra individual de un texto, o dividirlo en bloques más pequeños.
+$chars = str_split("Luis"); // ["L","u","i","s"]
+
+
 
