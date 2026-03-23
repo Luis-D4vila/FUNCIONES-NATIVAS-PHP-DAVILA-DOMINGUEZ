@@ -45,6 +45,10 @@ $dif = array_diff($a,$b); // [1]
 // es similar al array_diff
 $comunes = array_intersect($a,$b); // [2,3]
 
+// 9. array_chunk() -> divide en bloques
+// - Divide un array en sub-arrays de tamaño fijo
+//ejemplo dividir estudiantes en equipos u organizar elementos en filas/columnas
+$grupos = array_chunk($estudiantes,2);// [[1,2],[3]]
 
 
 
