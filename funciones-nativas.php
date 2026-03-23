@@ -78,5 +78,9 @@ echo str_word_count($texto); // 3
 // Cuando necesitas mostrar un texto al revés, validar palíndromos, o manipular códigos que requieren inversión (alrevez)
 echo strrev("Luis"); // "siuL"
 
+// 15. htmlspecialchars() → convierte caracteres especiales (seguridad en HTML)
+//funcionada para montrar tal y como fue escrito sin que se le mofique nada
+// es importante porque Evita que el navegador interprete texto como código HTML o JavaScript
+echo htmlspecialchars("<b>Hola</b>"); // &lt;b&gt;Hola&lt;/b&gt;
 
 
