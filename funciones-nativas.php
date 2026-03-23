@@ -99,3 +99,6 @@ echo trim($nombre); // "Luis"
 // Cuando necesitas separar datos que vienen juntos en un string
 // - nombre completo en nombre y apellido
 $partes = explode(" ","Luis Pérez"); // ["Luis","Pérez"]
+
+// 19. implode() → une elementos de un array en una cadena
+$cadena = implode(",",$array);
