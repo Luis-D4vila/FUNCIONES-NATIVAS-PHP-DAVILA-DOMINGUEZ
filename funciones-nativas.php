@@ -24,12 +24,20 @@ $valores = array_values($personas[0]); // ["Luis",25]
 
 // 5. array_filter() -> filtra con condición
 // Recorre un array y devuelve solo los elementos que cumplen una condición.
-// por ejemplo para mostrar solo estudiantes aprobados o solo los que tienen edad mayor a 18.
+// por ejemplo para mostrar solo estudiantes aprobados o solo los que tienen edad mayor a 18
 $mayores = array_filter($edades, fn($e)=>$e>=30); // [30]
 
 // 6. array_reduce() -> reduce a un solo valor
 // Recorre un array y lo reduce a un único valor aplicando una función acumuladora.
 //se utiliza Cuando necesitas calcular algo a partir de todos los elementos ejemplo, suma, promedio
 $suma = array_reduce($edades, fn($c,$e)=>$c+$e,0); // 55
+
+//7. array_diff() -> diferencia entre array
+// Compara dos o más arrays y devuelve los elementos que están en el primero pero no en los demás
+//ejemplo - Estudiantes inscritos vs. estudiantes que entregaron tarea
+$a = [1,2,3]; 
+$b = [2,3];
+$dif = array_diff($a,$b); // [1]
+
 
 
