@@ -112,3 +112,6 @@ echo strtolower("LUIS"); // "luis"
 // 22. strtoupper() → convierte a mayúsculas
 echo strtoupper("Luis"); // "LUIS"
 
+// 23. ucfirst() → primera letra en mayúscula
+echo ucfirst("luis"); // "Luis"
+
