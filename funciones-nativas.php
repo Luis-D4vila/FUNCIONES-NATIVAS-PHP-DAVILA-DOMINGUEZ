@@ -14,3 +14,8 @@ $edades = array_column($personas,"edad"); // [25,30]
 if(array_key_exists("nombre",$personas[0])){ echo "Sí existe"; }
 
 
+// 3. array_keys() -> devuelve todas las claves
+// Devuelve un array con todas las claves (keys) de otro array.
+$claves = array_keys($personas[0]); // ["nombre","edad"]
+
+
