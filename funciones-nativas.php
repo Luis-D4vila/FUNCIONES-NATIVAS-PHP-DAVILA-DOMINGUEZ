@@ -67,5 +67,12 @@ $chars = str_split("Luis"); // ["L","u","i","s"]
 //se coloca almomento de pintar en pantalla
 echo str_repeat("PHP ",3); // PHP PHP PHP
 
+// 13. str_word_count() → cuenta palabras
+// Cuenta cuántas palabras hay en una cadena de texto.
+// por ejemplo funcionada para validar que un campo tenga cierto número de palabras.
+echo str_word_count($texto); // 3
+
+
+
 
 
