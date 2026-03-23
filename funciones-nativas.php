@@ -105,3 +105,6 @@ $cadena = implode(",",$array);
 
 // 20. substr() → extrae parte de una cadena
 echo substr("Luis",0,2); // "Lu"
+
+// 21. strtolower() → convierte a minúsculas
+echo strtolower("LUIS"); // "luis"
