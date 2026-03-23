@@ -51,28 +51,32 @@ $comunes = array_intersect($a,$b); // [2,3]
 $grupos = array_chunk($estudiantes,2);// [[1,2],[3]]
 
 // 10. array_combine() -> combina claves y valores
-//  Toma dos arrays: uno de nombres y otro de notas, y los combina en un solo array asociativo.
-//importante  Ambos arrays deben tener la misma cantidad de elementos, si no, PHP lanza un error.
+//  Toma dos arrays: uno de nombres y otro de notas, y los combina en un solo array asociativo
+//importante  Ambos arrays deben tener la misma cantidad de elementos, si no, PHP lanza un error
 $keys = ["a","b"]; 
 $vals = [1,2];
 $comb = array_combine($keys,$vals); // ["a"=>1,"b"=>2]
 
 // 11. str_split() -> convierte string en array
 //Convierte una cadena en un array de caracteres o en fragmentos de tamaño definido.
-// se utliza Cuando necesitas trabajar con cada letra individual de un texto, o dividirlo en bloques más pequeños.
+// se utliza Cuando necesitas trabajar con cada letra individual de un texto, o dividirlo en bloques más pequeños
 $chars = str_split("Luis"); // ["L","u","i","s"]
 
 // 12. str_repeat() -> repite cadena
-//Repite una cadena el número de veces que indiques.
+//Repite una cadena el número de veces que indiques
 //se coloca almomento de pintar en pantalla
 echo str_repeat("PHP ",3); // PHP PHP PHP
 
 // 13. str_word_count() → cuenta palabras
 // Cuenta cuántas palabras hay en una cadena de texto.
-// por ejemplo funcionada para validar que un campo tenga cierto número de palabras.
+// por ejemplo funcionada para validar que un campo tenga cierto número de palabras
 echo str_word_count($texto); // 3
 
-
+// 14. strrev() → invierte cadena
+// Invierte el orden de los caracteres en una cadena
+// Solo recibe la cadena que quieres invertir
+// Cuando necesitas mostrar un texto al revés, validar palíndromos, o manipular códigos que requieren inversión (alrevez)
+echo strrev("Luis"); // "siuL"
 
 
 
