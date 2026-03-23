@@ -115,3 +115,6 @@ echo strtoupper("Luis"); // "LUIS"
 // 23. ucfirst() → primera letra en mayúscula
 echo ucfirst("luis"); // "Luis"
 
+// 25. ucwords() → primera letra de cada palabra en mayúscula
+echo ucwords("luis pérez"); // "Luis Pérez"
+
