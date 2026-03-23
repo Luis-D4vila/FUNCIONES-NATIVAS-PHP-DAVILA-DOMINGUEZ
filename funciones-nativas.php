@@ -83,4 +83,10 @@ echo strrev("Luis"); // "siuL"
 // es importante porque Evita que el navegador interprete texto como código HTML o JavaScript
 echo htmlspecialchars("<b>Hola</b>"); // &lt;b&gt;Hola&lt;/b&gt;
 
+// 16. htmlentities() → convierte todos los caracteres a entidades HTML
+// lo usarías para mostrar nombres, comentarios o descripciones con acentos y símbolos de forma segura en la web
+$texto = "Información & <b>importante</b>";
+echo htmlentities($texto); // Resultado: Informaci&oacute;n &amp; &lt;b&gt;importante&lt;/b&gt;
+
+
 
