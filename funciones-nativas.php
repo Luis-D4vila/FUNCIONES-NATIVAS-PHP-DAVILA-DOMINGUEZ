@@ -94,3 +94,8 @@ $nombre = "  Luis  ";
 echo trim($nombre); // "Luis"
 
 
+// 18. explode() -> divide cadena en partes
+// - Divide una cadena en un array usando un delimitador ejemplo: espacio, coma, guion
+// Cuando necesitas separar datos que vienen juntos en un string
+// - nombre completo en nombre y apellido
+$partes = explode(" ","Luis Pérez"); // ["Luis","Pérez"]
