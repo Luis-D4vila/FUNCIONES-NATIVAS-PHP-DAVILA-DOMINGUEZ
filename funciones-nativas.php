@@ -126,3 +126,8 @@ echo str_replace("mundo","SIGE","Hola mundo"); // "Hola SIGE"
 
 // 28. strpos() → busca posición de un texto dentro de una cadena
 echo strpos("Hola mundo","mundo"); // 5
+
+// 29. strrpos() → busca la última aparición de un texto
+echo strrpos("Hola mundo mundo","mundo"); // 10
+
+
