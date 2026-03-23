@@ -123,3 +123,6 @@ echo number_format(1234.567,2); // "1,234.57"
 
 // 27. str_replace() → reemplaza caracteres o palabras
 echo str_replace("mundo","SIGE","Hola mundo"); // "Hola SIGE"
+
+// 28. strpos() → busca posición de un texto dentro de una cadena
+echo strpos("Hola mundo","mundo"); // 5
