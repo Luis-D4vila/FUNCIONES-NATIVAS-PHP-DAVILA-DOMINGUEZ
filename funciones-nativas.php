@@ -102,3 +102,6 @@ $partes = explode(" ","Luis Pérez"); // ["Luis","Pérez"]
 
 // 19. implode() → une elementos de un array en una cadena
 $cadena = implode(",",$array);
+
+// 20. substr() → extrae parte de una cadena
+echo substr("Luis",0,2); // "Lu"
