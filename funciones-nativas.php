@@ -57,10 +57,15 @@ $keys = ["a","b"];
 $vals = [1,2];
 $comb = array_combine($keys,$vals); // ["a"=>1,"b"=>2]
 
-// 11. str_split() → convierte string en array
+// 11. str_split() -> convierte string en array
 //Convierte una cadena en un array de caracteres o en fragmentos de tamaño definido.
 // se utliza Cuando necesitas trabajar con cada letra individual de un texto, o dividirlo en bloques más pequeños.
 $chars = str_split("Luis"); // ["L","u","i","s"]
+
+// 12. str_repeat() -> repite cadena
+//Repite una cadena el número de veces que indiques.
+//se coloca almomento de pintar en pantalla
+echo str_repeat("PHP ",3); // PHP PHP PHP
 
 
 
