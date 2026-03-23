@@ -121,3 +121,5 @@ echo ucwords("luis pérez"); // "Luis Pérez"
 // 26. number_format() → formatea números con decimales y separadores
 echo number_format(1234.567,2); // "1,234.57"
 
+// 27. str_replace() → reemplaza caracteres o palabras
+echo str_replace("mundo","SIGE","Hola mundo"); // "Hola SIGE"
