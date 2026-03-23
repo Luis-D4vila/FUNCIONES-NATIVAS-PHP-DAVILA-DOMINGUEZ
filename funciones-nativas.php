@@ -67,26 +67,30 @@ $chars = str_split("Luis"); // ["L","u","i","s"]
 //se coloca almomento de pintar en pantalla
 echo str_repeat("PHP ",3); // PHP PHP PHP
 
-// 13. str_word_count() → cuenta palabras
+// 13. str_word_count() -> cuenta palabras
 // Cuenta cuántas palabras hay en una cadena de texto.
 // por ejemplo funcionada para validar que un campo tenga cierto número de palabras
 echo str_word_count($texto); // 3
 
-// 14. strrev() → invierte cadena
+// 14. strrev() -> invierte cadena
 // Invierte el orden de los caracteres en una cadena
 // Solo recibe la cadena que quieres invertir
 // Cuando necesitas mostrar un texto al revés, validar palíndromos, o manipular códigos que requieren inversión (alrevez)
 echo strrev("Luis"); // "siuL"
 
-// 15. htmlspecialchars() → convierte caracteres especiales (seguridad en HTML)
+// 15. htmlspecialchars() -> convierte caracteres especiales (seguridad en HTML)
 //funcionada para montrar tal y como fue escrito sin que se le mofique nada
 // es importante porque Evita que el navegador interprete texto como código HTML o JavaScript
 echo htmlspecialchars("<b>Hola</b>"); // &lt;b&gt;Hola&lt;/b&gt;
 
-// 16. htmlentities() → convierte todos los caracteres a entidades HTML
+// 16. htmlentities() -> convierte todos los caracteres a entidades HTML
 // lo usarías para mostrar nombres, comentarios o descripciones con acentos y símbolos de forma segura en la web
 $texto = "Información & <b>importante</b>";
 echo htmlentities($texto); // Resultado: Informaci&oacute;n &amp; &lt;b&gt;importante&lt;/b&gt;
 
+// 17. trim() -> elimina espacios al inicio y al final
+// Elimina los espacios en blanco y otros caracteres como saltos de línea, al inicio y al final de una cadena
+$nombre = "  Luis  ";
+echo trim($nombre); // "Luis"
 
 
