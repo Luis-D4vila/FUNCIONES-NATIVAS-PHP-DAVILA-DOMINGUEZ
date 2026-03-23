@@ -108,3 +108,7 @@ echo substr("Luis",0,2); // "Lu"
 
 // 21. strtolower() → convierte a minúsculas
 echo strtolower("LUIS"); // "luis"
+
+// 22. strtoupper() → convierte a mayúsculas
+echo strtoupper("Luis"); // "LUIS"
+
