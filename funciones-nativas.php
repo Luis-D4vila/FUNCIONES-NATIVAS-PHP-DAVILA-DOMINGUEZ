@@ -27,4 +27,9 @@ $valores = array_values($personas[0]); // ["Luis",25]
 // por ejemplo para mostrar solo estudiantes aprobados o solo los que tienen edad mayor a 18.
 $mayores = array_filter($edades, fn($e)=>$e>=30); // [30]
 
+// 6. array_reduce() -> reduce a un solo valor
+// Recorre un array y lo reduce a un único valor aplicando una función acumuladora.
+//se utiliza Cuando necesitas calcular algo a partir de todos los elementos ejemplo, suma, promedio
+$suma = array_reduce($edades, fn($c,$e)=>$c+$e,0); // 55
+
 
