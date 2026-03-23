@@ -50,5 +50,11 @@ $comunes = array_intersect($a,$b); // [2,3]
 //ejemplo dividir estudiantes en equipos u organizar elementos en filas/columnas
 $grupos = array_chunk($estudiantes,2);// [[1,2],[3]]
 
+// 10. array_combine() -> combina claves y valores
+//  Toma dos arrays: uno de nombres y otro de notas, y los combina en un solo array asociativo.
+//importante  Ambos arrays deben tener la misma cantidad de elementos, si no, PHP lanza un error.
+$keys = ["a","b"]; 
+$vals = [1,2];
+$comb = array_combine($keys,$vals); // ["a"=>1,"b"=>2]
 
 
