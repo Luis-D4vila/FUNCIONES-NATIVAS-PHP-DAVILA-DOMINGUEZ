@@ -130,4 +130,8 @@ echo strpos("Hola mundo","mundo"); // 5
 // 29. strrpos() → busca la última aparición de un texto
 echo strrpos("Hola mundo mundo","mundo"); // 10
 
+// 30. strcmp() → compara dos cadenas
+echo strcmp("Luis","Luis"); // 0
+echo strcmp("Luis","Ana");  // >0
+echo strcmp("Ana","Luis");  // <0
 
