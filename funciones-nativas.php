@@ -39,5 +39,12 @@ $a = [1,2,3];
 $b = [2,3];
 $dif = array_diff($a,$b); // [1]
 
+// 8. array_intersect() -> como su nombre casi lo dice, interseccion
+// Compara dos o más arrays y devuelve los elementos que están presentes en todos ellos
+//productos en inventario y en promoción,
+// es similar al array_diff
+$comunes = array_intersect($a,$b); // [2,3]
+
+
 
 
