@@ -118,3 +118,6 @@ echo ucfirst("luis"); // "Luis"
 // 25. ucwords() → primera letra de cada palabra en mayúscula
 echo ucwords("luis pérez"); // "Luis Pérez"
 
+// 26. number_format() → formatea números con decimales y separadores
+echo number_format(1234.567,2); // "1,234.57"
+
